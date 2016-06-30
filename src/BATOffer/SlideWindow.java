@@ -24,7 +24,7 @@ public class SlideWindow {
 				qmax.pollFirst();
 			}
 			if(i >= w-1){
-				res[index++] = arr[qmax.pollFirst()];
+				res[index++] = arr[qmax.peekFirst()];
 			}
 		}
 		return res;
