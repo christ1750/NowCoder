@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.Set;
-import java.util.Comparator;
 /** 
  * author: christ 
  * data：2016年6月23日 上午8:59:15 
@@ -48,6 +47,7 @@ public class Main_Enconding {
 			}
 			System.out.println(count);
 		}
+		in.close();
 	}	
 	public static void getMap(Nodes root, int deep, Map<String, Integer> map){
 		if(root.left == null && root.right == null){
@@ -57,7 +57,7 @@ public class Main_Enconding {
 		getMap(root.left,deep+1, map);
 		getMap(root.right, deep+1, map);
 	}
-	class Nodes implements Comparable<Nodes>{
+	public static class Nodes implements Comparable<Nodes>{
 		int value;
 		String context;
 		int priority;
