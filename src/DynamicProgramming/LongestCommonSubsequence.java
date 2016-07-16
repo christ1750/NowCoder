@@ -2,7 +2,7 @@ package DynamicProgramming;
 /** 
  * author: christ 
  * data：2016年5月16日 上午10:38:06 
- * 类说明 
+ * 最长公共子序列，
  */
 public class LongestCommonSubsequence {
 	public int findLCS(String A,int n, String B, int m){

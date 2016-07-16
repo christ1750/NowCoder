@@ -2,7 +2,9 @@ package DynamicProgramming;
 /** 
  * author: christ 
  * data：2016年5月18日 上午10:33:26 
- * 类说明 
+ * 最长回文串的长度
+ * 代码难懂的地方就是内层的两个for循环，他们分别对于以i为中心的长度为奇数和偶数的两种情况，整个代码遍历中心
+ * 位置i，并以之扩展，找出最长回文
  */
 public class LongestPalindromicSubsequence {
 	public int getLPS(String A,int n){

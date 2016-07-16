@@ -2,7 +2,8 @@ package DynamicProgramming;
 /** 
  * author: christ 
  * data：2016年5月16日 上午10:39:07 
- * 类说明 
+ * 最长递增子序列（LIS）
+ * 
  */
 public class LongestIncreasingSubsequence {	
 	public int getLIS(int[] A,int n){

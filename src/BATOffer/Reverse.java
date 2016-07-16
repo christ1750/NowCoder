@@ -2,7 +2,11 @@ package BATOffer;
 /** 
  * author: christ 
  * data：2016年5月2日 下午5:59:23 
- * 类说明 
+ * 旋转字符串
+ * 改进版的循环移位，时间复杂福O(n)，空间复杂度O(1),主要应用了求逆的思想
+ * 将这个问题看做是把数组ab转换成ba，同时假定我们拥有一个函数可以将数组中的特点部分元素逆序
+ * 从ab开始，首先对a求逆，得到a^r b,然后对b求逆，得到a^r b^r，最后整体求逆，得到(a^r b^r)^r
+ * 也就是ba
  */
 public class Reverse {
 	public String reverseSentence(String A,int n){

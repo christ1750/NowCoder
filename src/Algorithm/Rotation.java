@@ -3,7 +3,9 @@ package Algorithm;
 /** 
  * author: christ 
  * data：2016年3月10日 下午9:24:42 
- * 类说明 
+ * 判断一个字符串a是不是字符串b的旋转子串，eg：abc是不是bca的旋转子串
+ * 具体思想是将b串连接起来，变成bcabca，此时，如果a是新串的子串，那么就是
+ * 他的旋转串，判断a串是否是b的子串时利用的是KMP算法
  */
 public class Rotation {
 	public boolean chkRotation(String a,int lena,String b,int lenb){
