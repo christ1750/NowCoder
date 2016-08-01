@@ -5,9 +5,11 @@ import java.util.Scanner;
 /** 
  * author: christ 
  * data：2016年6月16日 下午4:03:28 
- * 类说明 
+ * 现有一个n个整数的序列，你要做的就是交换两个数的位置直到整个序列按照升序排列，那么将这个整数序列排好序，需要交换多少次？
+ * 例如，1，2，3，5，4，我们只需要交换一次，即将5和4交换即可。
+ *
  */
-public class Main_02 {
+public class Main_SpecialExchange {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		while(in.hasNext()){

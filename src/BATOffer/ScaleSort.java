@@ -1,6 +1,5 @@
 package BATOffer;
 
-import java.util.ArrayList;
 
 /** 
  * author: christ 

@@ -7,7 +7,10 @@ import java.util.Scanner;
 /** 
  * author: christ 
  * data：2016年6月10日 上午10:47:30 
- * 类说明 
+ * 有 n 个字符串，每个字符串都是由 A-J 的大写字符构成。
+ * 现在你将每个字符映射为一个 0-9 的数字，不同字符映射为不同的数字。
+ * 这样每个字符串就可以看做一个整数，唯一的要求是这些整数必须是正整数且它们的字符串不能有前导零。
+ * 现在问你怎样映射字符才能使得这些字符串表示的整数之和最大？ 
  */
 class Element{
 	long w;
@@ -55,8 +58,7 @@ public class Main_01 {
 		}
 		
 		if(zeroIndex < 0){
-			System.out.print(0);
-			return;
+			System.out.print(0);			
 		}
 		
 		long sum = 0;

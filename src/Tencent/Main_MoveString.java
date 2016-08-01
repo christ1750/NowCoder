@@ -6,9 +6,10 @@ import java.util.Scanner;
 /** 
  * author: christ 
  * data：2016年6月9日 下午8:40:54 
- * 类说明 
+ * 把一个字符串的大写字母放到字符串的后面，
+ * 各个字符的相对位置不变，且不能申请额外的空间
  */
-public class Main_02 {
+public class Main_MoveString {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		while(in.hasNextLine()){

@@ -8,9 +8,9 @@ import java.util.Scanner;
 /** 
  * author: christ 
  * data：2016年6月9日 下午8:30:33 
- * 类说明 
+ * 有n个数，两两组成二元组，差的绝对值最小的有多少对呢？差的绝对值最大的呢
  */
-public class Main_03 {
+public class Main_Gap {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		while(in.hasNextLine()){
