@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 每张 CD 的容量长度都是 L 秒，而且你至少得保证同一张 CD 内相邻两首歌中间至少要隔 1 秒。
  * 为了辟邪，你决定任意一张 CD 内的歌数不能被 13 这个数字整除，那么请问你出这张专辑至少需要多少张 CD ？
  */
-public class Main_05 {
+public class Main_CDnum {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();

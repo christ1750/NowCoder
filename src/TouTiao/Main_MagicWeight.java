@@ -5,9 +5,12 @@ import java.util.Scanner;
 /** 
  * author: christ 
  * data：2016年6月10日 下午5:58:56 
- * 类说明 
+ * 给出 n 个字符串，对于每个 n 个排列 p，按排列给出的顺序(p[0] , p[1] … p[n-1])依次连接这 n 个字符串都能得到一个长度为这些字符串长度之和的字符串。
+ * 按照这个方法一共可以生成 n! 个字符串。
+ * 一个字符串的权值等于把这个字符串循环左移 i 次后得到的字符串仍和原字符串全等的数量，i 的取值为 [1 , 字符串长度]。
+ * 求这些字符串最后生成的 n! 个字符串中权值为 K 的有多少个。
  */
-public class Main_03 {
+public class Main_MagicWeight {
 	public static int num;
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);

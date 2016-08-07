@@ -17,7 +17,7 @@ class Element{
 	boolean isCanBeZero = true;
 }
 
-public class Main_01 {
+public class Main_MaxValue {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);		
 		int n = in.nextInt();
